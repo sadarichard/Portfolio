@@ -158,7 +158,7 @@ span {
 }
 
 .heroo {
-    height: 50rem;
+    height: 80rem;
     width: 45rem;
 }
 
@@ -196,8 +196,8 @@ span {
 }
 
 .hero-section-image {
-    width: 55rem;
-    height: 50rem;
+    width: 65rem;
+    height: 60rem;
     background-image: url('IMG_1875.JPG');
     background-position: center;
     background-size: cover;
