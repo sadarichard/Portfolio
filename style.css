@@ -8,6 +8,7 @@
 
 html {
     font-size: 62.5%;
+    min-height: 100vh;
 }
 
 ul {
@@ -196,13 +197,13 @@ span {
 }
 
 .hero-section-image {
-    width: 65rem;
+    width: 60rem;
     height: 60rem;
-    background-image: url('IMG_1875.JPG');
-    background-position: center;
-    background-size: cover;
+    background-image: url('WhatsApp\ Image\ 2024-09-12\ at\ 11.38.30\ AM\ \(1\).jpeg');
+    background-position: -11rem -8rem;
+    background-size: 120%;
     background-repeat: no-repeat;
-    border-radius: 100% 180%;
+    border-radius: 80% 150%;
     border: 3px solid rgb(245,238,132);
     position: relative;
     animation: myImage 2s linear 2s infinite;
@@ -247,11 +248,15 @@ span {
     100% {left: 0px; top: 0px;}
 }
 
-.about-image img {
-    width: 55rem;
+.imgg {
+    width: 50rem;
     height: 50rem;
-    border-radius: 180% 100%;
     border: 3px solid rgb(245,238,132);
+    background-image: url('WhatsApp\ Image\ 2024-09-12\ at\ 11.38.30\ AM\ \(1\).jpeg');
+    background-position: -9.9rem -7rem;
+    background-size: 120%;
+    background-repeat: no-repeat;
+    border-radius: 150% 100%;
 }
 
 .about-page {
@@ -287,7 +292,7 @@ span {
 
 /* Project Section */
 .project {
-    padding-top: 5rem;
+    padding-top: 10rem;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -358,6 +363,7 @@ span {
 .contact-me-text {
     font-size: 4rem;
     padding-top: 10rem;
+    color: white;
 }
 
 .contact-me-form {
@@ -412,6 +418,23 @@ span {
     border-radius: 4px;
     margin-bottom: 10rem;
     cursor: pointer;
+}
+
+.nav-social-mediaa {
+    display: none;
+    justify-content: end;
+    width: 20%;
+}
+
+.nav-social-mediaa img {
+    width: 3rem;
+    height: 3rem;
+    padding: 0.2rem;
+}
+
+.nav-social-mediaa img:hover {
+    width: 4rem;
+    height: 4rem;
 }
 
 .error {
@@ -658,6 +681,7 @@ span {
 /* Hero-Section */
 .hero-section {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     padding-top: 15rem;
@@ -670,32 +694,33 @@ span {
 
 .heroo {
     height: 50rem;
-    width: 35rem;
+    width: 45rem;
     margin: 3rem;
+    text-align: center;
 }
 
 .hero-section-one {
     display: flex;
     flex-direction: column;
+    align-items: center;
     justify-content: center;
     color: white;
     font-weight: 800;
-    margin-left: 5rem;
 }
 
 .hero-section-one h5 {
-    font-size: 2.2rem;
+    font-size: 2.5rem;
 }
 
 .hero-section-one h1 {
-    font-size: 6rem;
-    line-height: 7rem;
+    font-size: 9rem;
+    line-height: 9rem;
     margin-bottom: 1rem;
     color: rgb(245,238,132);
 }
 
 .hero-section-one p {
-    font-size: 1.8rem;
+    font-size: 2.1rem;
 }
 
 .hero-section-button {
@@ -706,16 +731,17 @@ span {
     margin-top: 1rem;
     border: none;
     border-radius: 4px;
+    
 }
 
 .hero-section-image {
-    width: 30rem;
-    height: 30rem;
-    background-image: url('IMG_1875.JPG');
-    background-position: center;
-    background-size: cover;
+    width: 60rem;
+    height: 60rem;
+    background-image: url('WhatsApp\ Image\ 2024-09-12\ at\ 11.38.30\ AM\ \(1\).jpeg');
+    background-position: -10rem -8rem;
+    background-size: 70rem;
     background-repeat: no-repeat;
-    border-radius: 100% 180%;
+    border-radius: 80% 150%;
     border: 3px solid rgb(245,238,132);
     position: relative;
     animation: myImage 2s linear 2s infinite;
@@ -761,12 +787,12 @@ span {
     100% {left: 0px; top: 0px;}
 }
 
-.about-image img {
+/* .about-image img {
     width: 55rem;
     height: 50rem;
     border-radius: 180% 100%;
     border: 3px solid rgb(245,238,132);
-}
+} */
 
 .about-page {
     margin-top: 5rem;
@@ -803,7 +829,7 @@ span {
 
 /* Project Section */
 .project {
-    padding-top: 5rem;
+    padding-top: 10rem;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -870,6 +896,7 @@ span {
 .contact-me-text {
     font-size: 4rem;
     padding-top: 10rem;
+    color: white;
 }
 
 .contact-me-form {
@@ -921,6 +948,23 @@ span {
     border: none;
     border-radius: 4px;
     margin-bottom: 10rem;
+}
+
+.nav-social-mediaa {
+    display: none;
+    justify-content: end;
+    width: 20%;
+}
+
+.nav-social-mediaa img {
+    width: 3rem;
+    height: 3rem;
+    padding: 0.2rem;
+}
+
+.nav-social-mediaa img:hover {
+    width: 4rem;
+    height: 4rem;
 }
 
 /* Footer Section */
@@ -1208,9 +1252,9 @@ span {
 .hero-section-image {
     width: 50rem;
     height: 50rem;
-    background-image: url('IMG_1875.JPG');
-    background-position: center;
-    background-size: cover;
+    background-image: url('WhatsApp\ Image\ 2024-09-12\ at\ 11.38.30\ AM\ \(1\).jpeg');
+    background-position: -5rem -4rem;
+    background-size: 55rem;
     background-repeat: no-repeat;
     border-radius: 100% 180%;
     border: 3px solid rgb(245,238,132);
@@ -1227,7 +1271,7 @@ span {
 
 /* About Section */
 .about-items {
-    padding-top: 2rem;
+    padding-top: 15rem;
     padding-bottom: 2rem;
     display: flex;
     flex-direction: column;
@@ -1257,12 +1301,12 @@ span {
     100% {left: 0px; top: 0px;}
 }
 
-.about-image img {
+/* .about-image img {
     width: 55rem;
     height: 50rem;
     border-radius: 180% 100%;
     border: 3px solid rgb(245,238,132);
-}
+} */
 
 .about-page {
     margin-top: 5rem;
@@ -1300,7 +1344,7 @@ span {
 
 /* Project Section */
 .project {
-    padding-top: 5rem;
+    padding-top: 15rem;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -1367,6 +1411,13 @@ span {
 .contact-me-text {
     font-size: 4rem;
     padding-top: 10rem;
+    color: white;
+}
+
+#myForm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .contact-me-form {
@@ -1405,25 +1456,47 @@ span {
 }
 
 .contact-me-button {
-    margin-top: 3rem;
     text-align: center;
 }
 
 .contact-button {
-    width: 15rem;
-    padding: 1.2rem;
+    width: 20rem;
+    padding: 1.5rem;
+    font-size: 1.8rem;
     color: rgb(3,4,94);
     background-color: rgb(245,238,132);
     margin-top: 1rem;
     border: none;
     border-radius: 4px;
+}
+
+.nav-social-mediaa {
+    display: flex;
+    justify-content: center;
+    border: none;
+    background-color: rgb(245,238,132);
+    border-radius: 1rem;
+    padding: 0.5rem;
     margin-bottom: 10rem;
+    width: 25rem;
+}
+
+.nav-social-mediaa img {
+    width: 5rem;
+    height: 5rem;
+    padding: 0.3rem;
+}
+
+.nav-social-mediaa img:hover {
+    width: 4rem;
+    height: 4rem;
 }
 
 /* Footer Section */
 .flexbox-containerr {
     display: flex;
     flex-wrap: wrap;
+    align-items: center;
     justify-content: center;
     background-color: black;
 }
@@ -1454,12 +1527,12 @@ span {
 
 .flexbox-itemm-1 {
     min-height: 20vh;
+    display: flex;
 }
 
 #myMail {
     width: 60vw;
     height: 6vh;
-    margin-left: 20vw;
     text-align: center;
     padding: 1rem 2rem;
     background-color: rgb(25, 29, 32);
@@ -1472,7 +1545,6 @@ span {
     width: 60vw;
     height: 6vh;
     padding: 1.2rem 0rem 1.1rem 0rem;
-    margin-left: 20vw;
     margin-top: 2vh;
     background-color: rgb(245,238,132);
     border: none;
